@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blezzstore.com</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Tampilan dasar */
+    body {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      background: linear-gradient(45deg, #141E30, #243B55);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    /* Kontainer utama */
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    /* Profil */
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 15px 0;
+      border: 3px solid #fff;
+      transition: transform 0.3s ease;
+    }
+    .profile img:hover {
+      transform: scale(1.1);
+    }
+    .profile h1 {
+      font-size: 28px;
+      margin: 10px 0 5px;
+      letter-spacing: 1px;
+    }
+    .profile p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+    /* Link */
+    .links a {
+      display: block;
+      padding: 15px;
+      margin: 10px 0;
+      background: #fff;
+      color: #333;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .links a:hover {
+      background: #f1f1f1;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <!-- Ganti URL gambar sesuai kebutuhan -->
+      <img src="https://files.catbox.moe/gns54w.jpg" alt="Foto Profil">
+      <h1>BLEZZ STORE</h1>
+      <p>Whatsapp real hanya: 0882007694049</p>
+    </div>
+    <div class="links">
+      <a href="https://wa.me/62882007694049" onclick="openLink('https://wa.me/62882007694049')">NO WHATSAPP REAL</a>
+      <a href="#" onclick="openLink('https://chat.whatsapp.com/HRvZzxJmaaoEXBppEJQ5k6')">GRUP MABAR</a>
+      <a href="#" onclick="openLink('https://chat.whatsapp.com/JZXS4UKobzlGHx0Kw9ZFKM')">GRUP JB 1</a>
+      <a href="#" onclick="openLink('https://chat.whatsapp.com/CIggh7uWs0vITcdhubSYmp')">GRUP JB 2</a>
+    </div>
+  </div>
+  <script>
+    // JavaScript untuk membuka link di tab baru
+    function openLink(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
